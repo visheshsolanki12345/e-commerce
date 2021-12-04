@@ -1,0 +1,178 @@
+.container-fluid{
+    width: auto;
+    margin: 0 auto;
+    padding-top: 1cm;
+  
+  }
+/* .orderMain img{
+    width: 40vh;
+} */
+.orderbtn button{
+    margin: 8px;
+}
+.buttons{
+    height:40px;
+    width:100px;
+    background: rgb(128, 0, 28);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.dis{
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+     padding: 50px;
+     flex-wrap: wrap;
+
+}
+
+.disc{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;    
+    }
+
+.disp{
+    display: flex;
+  /* flex-direction: row; */
+    /* justify-content: center; */
+   
+    flex-wrap: wrap;
+    width: 80%;
+}
+.proimage{
+    align-content: start;
+}
+
+.proimage img{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+@media screen and (min-width: 992px) {
+    .lis{
+        max-width: 40%;
+    }
+    .accc{
+        width: 30%;
+    }
+    
+}
+@media screen and (max-width: 992px) {
+    .accc{
+        width: 140%;
+    }
+}
+
+.container-fluid{
+    width: auto;
+    margin: 0 auto;
+    padding-top: 1cm;
+  
+  }
+/* .borderMain{
+    border: 1px solid orangered;
+} */
+.borderMain img{
+    width: 200px;
+    margin: 10px;
+}
+
+.h1-showcart{
+    text-shadow: 2px 2px red;
+}
+.border-img{
+    border-top: 1px solid orangered;
+}
+/* .description{
+    border: 1px solid orangered;
+} */
+.vartical{
+    height: auto;
+    border-left: 2px solid black;
+}
+@media only screen and (max-width: 600px) {
+    .vartical{
+        border: none;
+    }
+  }
+
+.inc-dinc button{
+    width: 80px;
+    font-size: 30px;
+    border: 1px solid #f1f3f3;
+    background: #f1f3f3;
+    color: #373d40;
+    outline: none !important;
+    box-shadow: none !important;
+    transition: #f1f3f3 0.3s ease-in-out, border 0.3s ease-in-out;
+    border-radius: 8px 8px 8px 0;
+    display: block;
+    margin:10px;
+}
+.alegible{
+    font-weight: 800;
+}
+.inc-dinc button div{
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.inc-dinc h2{
+    background-color: rosybrown;
+    border-radius: 40px;
+    height: 60px;
+}
+.inc-dinc input{
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+}
+.inc-dinc button:hover{
+    background-color: brown;
+}
+
+.priceAmmount{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.checkout-btn{
+    display: flex;
+    justify-content: center;
+}
+.checkout-btn button{
+    padding:10px 25px;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    background-color:  orange;
+    border: none;
+    border-radius: 40px;
+} 
+
+.delete-btn:hover{
+    background-color: tomato;
+}
+.deletebtn button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.accoudion{
+    background-color: red;
+}
+.borderOrder{
+   
+    background-color: white;
+}
